@@ -18,7 +18,7 @@ public class Studienberatung{
 		}
 		else{
 			System.out.println("Hast du Fachabitur?");
-			eingabe = scanner.next();
+			eingabe = scanner.next(); 
 			if(eingabe.equals("ja")){
 				System.out.println("Hast du eine Berufsausbildung?");
 				eingabe = scanner.next();
