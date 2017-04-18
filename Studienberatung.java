@@ -23,7 +23,8 @@ public class Studienberatung{
 				System.out.println("Hast du eine Berufsausbildung?");
 				eingabe = scanner.next();
 				if(eingabe.equals("ja")){
-					 
+					System.out.println("Du kannst ja später noch studieren.");
+					eingabe = scanner.next();
 				}
 				else{
 					System.out.println("Besser noch studieren.");
