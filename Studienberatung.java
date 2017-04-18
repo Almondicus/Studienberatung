@@ -17,7 +17,21 @@ public class Studienberatung{
 			}
 		}
 		else{
-			 
+			System.out.println("Hast du Fachabitur?");
+			eingabe = scanner.next();
+			if(eingabe.equals("ja")){
+				System.out.println("Hast du eine Berufsausbildung?");
+				eingabe = scanner.next();
+				if(eingabe.equals("ja")){
+					 
+				}
+				else{
+					System.out.println("Besser noch studieren.");
+				}
+			}
+			else{
+				System.out.println("Nicht studieren.");
+			}
 		}
 		
 	}
